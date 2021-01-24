@@ -1,7 +1,7 @@
 from flask import Flask, request, send_file, render_template, redirect, url_for
 import requests
 from io import BytesIO
-import simplejson as json
+import json
 from google.cloud import storage
 import uuid 
 from datetime import datetime
